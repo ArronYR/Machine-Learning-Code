@@ -5,7 +5,7 @@ from learning_demo_04_tool import *
 import timeit
 
 # 读取数据
-df = pd.read_csv('learning_demo_04_train.csv')
+df = pd.read_csv('./data/learning_demo_04_train.csv')
 lable = df['TARGET']
 df = df.drop(['ID', 'TARGET'], axis=1)
 

@@ -7,7 +7,7 @@ from numpy import dot
 from numpy import mat
 import pandas as pd
 
-dataset = pd.read_csv('learning_demo_03.csv')
+dataset = pd.read_csv('./data/learning_demo_03.csv')
 
 # 取出 X
 temp = dataset.iloc[:, 2:5]
